@@ -80,6 +80,15 @@ h3 {
 #gift-final:hover {
     background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2VoOG9saTRqeDA2cXlxNjQ3emVlbHZ0cmt5d2hzcTNpMGR0cnFwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wO4cyxpDbtHji/giphy.gif");
 }
+@media (max-width: 650px) {
+    body {
+        text-align: center;
+    }
+    
+    .responsive {
+        width: 600px;
+    }
+}
 #footer {
     width: 400px;
     margin: 40px auto 20px;
