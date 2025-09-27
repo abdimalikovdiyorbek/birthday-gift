@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(#a2d2ff, #efb0c9);
     color: #ffffff;
-    font-family: "Happy Monkey", system-ui;
+    font-family: "Happy Monkey", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
 }
 ::selection {
