@@ -44,41 +44,35 @@ h3 {
     border-radius: 10px;
     margin: 0 auto;
 }
-#gift-face {
-    width: 240px;
-    height: 200px;
-}
 #gift-face:hover {
     background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXd1N2tsMjYyYzIwMWpmdGplZDNwN2F6dmY3YmliYXU4YmU4MWRrMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QkSR6Z2tvCizu/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-#gift-gorgeous {
-    width: 500px;
-    height: 200px;
-}
-#gift-gorgeous:hover {
-    background: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGk5Y3hkcmZoanVjNm9tMXZ1cjZ6d29jemNoM3NybWNrY3FrYjYyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fIBei3ErSzbacUP5Du/giphy.gif");
-
-}
-#gift-genius {
-    width: 500px;
-    height: 380px;
+#gift-beautiful:hover {
+    background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHJnNTBjbnI0aDRqYXZuYnZzb2l1NXNlMjJ4ZXAyN3p2aDRsYmlyciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3V0nzIFlQPh5LXYk/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #gift-genius:hover {
     background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW5jOWZucmJqODFka3J2Zmo2dHI0MWloanIydm52OW9oMnBkY2pjZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LfT5GFFYXX7T2dCOVL/giphy.gif");
-}
-#gift-badass {
-    width: 480px;
-    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #gift-badass:hover {
     background: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmtmdjFhYjNmcHBtZWJ5Y3BrbG1mbzZ6c2lxamI1Nm5id3FsYnN4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lTLV2erK8vf1MIz4Rk/giphy.gif");
-}
-#gift-final {
-    width: 500px;
-    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #gift-final:hover {
     background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2VoOG9saTRqeDA2cXlxNjQ3emVlbHZ0cmt5d2hzcTNpMGR0cnFwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wO4cyxpDbtHji/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 @media (max-width: 650px) {
     body {
@@ -86,7 +80,8 @@ h3 {
     }
     
     .responsive {
-        width: 600px;
+        max-width: 100%;
+        height: auto;
     }
 }
 #footer {
